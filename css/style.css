@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.hidden {
+  display: none; }
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 60px;
+  background-color: transparent; }
+  header nav .navbar-left {
+    display: flex; }
+    header nav .navbar-left span {
+      margin-left: 10px; }
+    header nav .navbar-left .logo {
+      width: 40px;
+      padding-top: 8px;
+      padding-bottom: 5px; }
+    header nav .navbar-left .navbarStreaminglandia {
+      font-family: "Rubik Doodle Shadow", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 32px;
+      padding-top: 5px; }
+    header nav .navbar-left ul {
+      margin-left: 12px; }
+  header nav .navbar-right {
+    display: flex; }
+    header nav .navbar-right ul .navbar-login {
+      margin-right: 12px;
+      cursor: pointer; }
+    header nav .navbar-right ul .navbar-register {
+      position: relative; }
+  header nav .navbar-left ul,
+  header nav .navbar-right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-top: 12px; }
+  header nav .navbar-left ul li a,
+  header nav .navbar-right ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px;
+    font-size: 14px; }
+  header nav .navbar-left ul li a:hover,
+  header nav .navbar-right ul li a:hover {
+    color: #0EF409; }
+
+main #carouselExampleInterval {
+  position: relative;
+  display: flex;
+  background-size: cover;
+  min-height: 24.62em; }
+  main #carouselExampleInterval #carousel {
+    background-color: #0EF409;
+    width: 100%;
+    height: 60vh; }
+    main #carouselExampleInterval #carousel .carousel-item .image-carousel {
+      width: 100%;
+      height: 50%;
+      object-fit: cover; }
+    main #carouselExampleInterval #carousel .overlay {
+      position: absolute;
+      background-color: rgba(6, 58, 6, 0.5);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: #fff; }
+      main #carouselExampleInterval #carousel .overlay .container {
+        width: 100%;
+        display: flexbox; }
+        main #carouselExampleInterval #carousel .overlay .container .row div form input:hover {
+          border-color: #0EF409; }
+        main #carouselExampleInterval #carousel .overlay .container .row div form #buscar {
+          color: #fff;
+          border-color: #fff; }
+          main #carouselExampleInterval #carousel .overlay .container .row div form #buscar:hover {
+            background-color: #0EF409; }
+      main #carouselExampleInterval #carousel .overlay .container,
+      main #carouselExampleInterval #carousel .overlay .row {
+        height: 100%; }
+
+section .tendencias-container div h2 {
+  margin-left: 10px; }
+section .movies-container {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  section .movies-container .carousel-container {
+    width: 100%;
+    padding: 20px 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth; }
+    section .movies-container .carousel-container .tendencias {
+      display: flex;
+      flex-wrap: nowrap; }
+      section .movies-container .carousel-container .tendencias .container-image {
+        min-width: 12%;
+        margin: 10px;
+        cursor: pointer;
+        transition: 1s ease all;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); }
+        section .movies-container .carousel-container .tendencias .container-image:hover {
+          transform: scale(1.1);
+          transform-origin: center; }
+        section .movies-container .carousel-container .tendencias .container-image img {
+          border-radius: 10px;
+          width: 100%;
+          vertical-align: top;
+          margin-right: 10px; }
+    section .movies-container .carousel-container .trailers {
+      display: flex;
+      flex-wrap: nowrap; }
+
+/*# sourceMappingURL=style.css.map */

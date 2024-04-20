@@ -1,0 +1,15 @@
+@import './base/variables.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+@import './components/header';
+@import './components/carousel';
+@import './components/tendencias';

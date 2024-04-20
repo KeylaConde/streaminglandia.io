@@ -1,0 +1,63 @@
+@import '../base/variables.scss';
+
+section {
+
+    .tendencias-container {
+
+        div {
+
+            h2 {
+                margin-left: 10px;
+
+            }
+        }
+    }
+
+    .movies-container {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        .carousel-container {
+            width: 100%;
+            padding: 20px 0;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-behavior: smooth;
+
+            .tendencias {
+                display: flex;
+                flex-wrap: nowrap;
+    
+                .container-image {
+                    min-width: 12%;
+                    margin: 10px;
+                    cursor: pointer;
+                    transition: 1s ease all;
+                    border-radius: 10px;
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+
+                    &:hover {
+                        transform: scale(1.1);
+                        transform-origin: center;
+                    }
+    
+                    img {
+                        border-radius: 10px;
+                        width: 100%;
+                        vertical-align: top;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .trailers {
+                display: flex;
+                flex-wrap: nowrap;
+            }
+
+        }
+    }
+
+}

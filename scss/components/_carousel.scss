@@ -1,0 +1,84 @@
+@import '../base/variables.scss';
+
+main {
+
+    #carouselExampleInterval {
+        position: relative;
+        display: flex;
+        background-size: cover;
+        min-height: 24.62em;
+
+        #carousel {
+            background-color: $green;
+            width: 100%;
+            height: 60vh;
+
+            .carousel-item {
+
+                .image-carousel {
+                    width: 100%;
+                    height: 50%;
+                    object-fit: cover;
+
+                }
+            }
+
+            .overlay {
+                position: absolute;
+                background-color: rgba(6, 58, 6, 0.5);
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                color: $white;
+
+                .container {
+                    width: 100%;
+                    display: flexbox;
+
+                    .row {
+
+                        div {
+
+                            h2 {
+
+
+                            }
+                            h3 {
+
+
+                            }
+                            h2,
+                            h3 {
+                            
+                            }
+                            form {
+
+                                input {
+                                    &:hover {
+                                        border-color: $green;
+                                    }
+                        
+                                }
+                                #buscar {
+                                    color:$white;
+                                    border-color: $white;
+
+                                    &:hover {
+                                        background-color: $green;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+
+                 .container, 
+                .row {
+                height: 100%;
+                }
+            }
+        }
+    }
+}
