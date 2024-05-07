@@ -8,7 +8,6 @@ section {
 
             h2 {
                 margin-left: 10px;
-
             }
         }
     }
@@ -32,7 +31,7 @@ section {
     
                 .container-image {
                     min-width: 12%;
-                    margin: 10px;
+                    margin: 5px;
                     cursor: pointer;
                     transition: 1s ease all;
                     border-radius: 10px;
@@ -55,6 +54,22 @@ section {
             .trailers {
                 display: flex;
                 flex-wrap: nowrap;
+                margin-left: 5px;
+                margin-right: 5px;
+
+                div {
+                    margin: 5px;
+
+                    &:hover {
+                        transform: scale(1.1);
+                        transform-origin: center;
+                    }
+
+                    iframe {
+                        border-radius: 5px;
+                    }
+                }
+
             }
 
         }
